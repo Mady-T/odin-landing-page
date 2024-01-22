@@ -89,13 +89,14 @@ body {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 8px;
     border-style: none;
 }
 
 .top img {
     flex: 1;
+    height: 300px;
 }
 
 .mid {
@@ -108,6 +109,8 @@ body {
 .mid .heading {
     flex: none;
     margin: 30px;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .mid .card-container {
@@ -157,10 +160,17 @@ body {
 
 .bottom .quote {
     flex: auto;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
 }
 
 .bottom .byline {
     align-self: flex-end;
+    font-weight: bold;
+    color:#1f2937;
+    font-size: 24px;
 }
 
 .banner {
@@ -201,7 +211,7 @@ body {
 .banner .container button {
     align-self: center;
     background-color: transparent;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 8px;
     border: 2px solid #F9FAF8;
     color: #F9FAF8;
