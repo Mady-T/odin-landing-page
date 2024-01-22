@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-ul.header.links {
+.header ul.link-container {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -14,7 +14,7 @@ ul.header.links {
 .page,
 .header,
 .top,
-.middle,
+.mid,
 .bottom,
 .banner,
 .footer {
@@ -25,18 +25,24 @@ ul.header.links {
 .page {
     flex-direction: column;
     height: 100vh;
+    max-width: 1200px;
+    margin: auto;
 }
 
-body.header {
+.header {
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-.header.links {
+.header .link-container {
+    display: flex;
     justify-content: flex-end;
     gap: 20px;
 }
 
-.header.links .link {
+.header.link-container .link {
     flex: none;
 }
 
@@ -44,22 +50,23 @@ body.header {
     flex-direction: row;
 }
 
-.top.text {
+.top .text-container {
     flex-direction: column;
+    flex: auto;
 }
 
-.middle {
+.mid {
     flex-direction: column;
     align-items: center;
-
+    align-self: center;
 }
 
-.mid.heading {
+.mid .heading {
     flex: none;
     margin: 30px;
 }
 
-.mid.cards {
+.mid .card-container {
     display: flex;
     flex-direction: row;
     flex: auto;
@@ -69,7 +76,7 @@ body.header {
     gap: 20px;
 }
 
-.mid.card {
+.mid .card {
     display: flex;
     flex-direction: column;
     width: 200px;
