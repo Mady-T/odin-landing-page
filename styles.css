@@ -190,22 +190,6 @@ body {
     align-content: center;
 }
 
-/* .banner .container {
-    display: flex;
-    flex-direction: row;
-    align-self: stretch;
-    padding: 30px 50px;
-    max-width: 800px;
-    gap: 40px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-content: center;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 8px;
-    border-style: none;
-} */
-
 .banner .text-container{
     flex: auto;
     display: flex;
