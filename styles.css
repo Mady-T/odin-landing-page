@@ -1,0 +1,106 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+ul.header.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page,
+.header,
+.top,
+.middle,
+.bottom,
+.banner,
+.footer {
+    display: flex;
+    flex: auto;
+}
+
+.page {
+    flex-direction: column;
+    height: 100vh;
+}
+
+body.header {
+    flex-direction: row;
+}
+
+.header.links {
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header.links .link {
+    flex: none;
+}
+
+.top {
+    flex-direction: row;
+}
+
+.top.text {
+    flex-direction: column;
+}
+
+.middle {
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mid.heading {
+    flex: none;
+    margin: 30px;
+}
+
+.mid.cards {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.mid.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.bottom {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bottom .quote {
+    flex: auto;
+}
+
+.bottom .byline {
+    align-self: flex-end;
+}
+
+.banner {
+    flex-direction: row;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
