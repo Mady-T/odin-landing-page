@@ -19,12 +19,12 @@ body {
 .banner,
 .footer {
     display: flex;
-    flex: auto;
+    /* flex: auto; */
 }
 
 .page {
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
 }
 
